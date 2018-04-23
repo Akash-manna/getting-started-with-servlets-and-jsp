@@ -12,8 +12,8 @@ public class DBServlet extends HttpServlet
 	
 	//Database Connection Settings
 	static final String DB_URL = "jdbc:mysql://localhost:3306/examples";//?verifyServerCertificate=false&useSSL=true";
-	static final String DB_User = "root";
-	static final String DB_Pass = "root";
+	static final String DB_User = "username";
+	static final String DB_Pass = "password";
 	public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException
 	{
 		response.setContentType("text/html");
