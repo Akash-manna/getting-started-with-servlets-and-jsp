@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<web-app>
+	<servlet>
+		<servlet-name>firstServlet</servlet-name>
+		<servlet-class>FirstServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>fileUploadDBServlet</servlet-name>
+		<servlet-class>FileUploadDBServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>RegisterEmployee</servlet-name>
+		<servlet-class>RegisterDBEmployee</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>servletDBOutput</servlet-name>
+		<servlet-class>DBServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>formtoformServlet</servlet-name>
+		<servlet-class>formServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>firstServlet</servlet-name>
+		<url-pattern>/myFirstServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>fileUploadDBServlet</servlet-name>
+		<url-pattern>/uploadServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>RegisterEmployee</servlet-name>
+		<url-pattern>/registerEmployee</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>servletDBOutput</servlet-name>
+		<url-pattern>/dbServletOutput</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>formtoformServlet</servlet-name>
+		<url-pattern>/formServlet</url-pattern>
+	</servlet-mapping>
+</web-app>
