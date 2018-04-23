@@ -14,8 +14,8 @@ public class DatabaseAccess extends HttpServlet{
       static /*final*/ String DB_URL="jdbc:mysql://localhost/examples";
 
       //  Database credentials
-      static /*final*/ String USER = "root";
-      static /*final*/ String PASS = "root";
+      static /*final*/ String USER = "username";
+      static /*final*/ String PASS = "password";
 
       // Set response content type
       response.setContentType("text/html");
