@@ -11,8 +11,8 @@ public class FileUploadDBServlet extends HttpServlet
 	
 	//database connection settings
 	private String dbURL = "jdbc:mysql://localhost:3306/examples";
-	private String dbUser = "root";
-	private String dbPass = "root";
+	private String dbUser = "username";
+	private String dbPass = "password";
 	
 	protected void doPost(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {
