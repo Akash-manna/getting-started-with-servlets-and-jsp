@@ -16,7 +16,7 @@ public class FirstServlet extends HttpServlet
 		out.println("</head>");
 		out.println("<body>");
 		out.println("<h3>It Finally Works!</h3><br>");
-		out.println("<h2>Fuck Yeah! </h2><br>");
+		out.println("<h2>Hell Yeah! </h2><br>");
 		out.println("Time: "+(new Date().toLocaleString())+"<br>");
 		out.println("-Akash Manna");
 		out.println("</body>");
