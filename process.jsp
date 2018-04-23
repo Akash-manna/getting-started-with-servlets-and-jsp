@@ -14,7 +14,7 @@
    String age="age";
    try{
 	   Class.forName("com.mysql.jdbc.Driver");
-	   Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/examples", "root", "root");
+	   Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/examples", "username", "password");
 	   Statement st = conn.createStatement();
 	   
 	   int i=st.executeUpdate("insert into employees (age,first_name,last_name,city,email) values('"+age+"','"+first_name+"','"+last_name+"','"+city+"','"+email+"')");
